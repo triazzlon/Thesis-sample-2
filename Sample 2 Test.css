@@ -101,3 +101,27 @@ body {
     color: #1a0dab;
     text-decoration: underline;
   }
+  @media (max-width: 480px) {
+    .container {
+        padding: 30px 15px;
+    }
+
+    h2 {
+        font-size: 1.1em;
+        margin-bottom: 20px;
+    }
+
+    .form input {
+        font-size: 0.95em;
+        padding: 10px;
+    }
+
+    .next-button {
+        font-size: 0.95em;
+        padding: 10px;
+    }
+
+    .disclaimer {
+        font-size: 0.8em;
+    }
+}
